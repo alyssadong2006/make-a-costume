@@ -1,0 +1,90 @@
+html{
+  overflow: hidden;
+}
+
+body{
+	background-color: orange;
+}
+
+img {
+	position: absolute;
+	margin-left: 15%;
+  display:inline-block;
+  height:100%;
+}
+
+ul{
+	list-style-type: none;
+  display:inline-block;
+  float: none;
+  height: 100%;
+  table-layout: fixed;
+}
+
+li{
+  display: flex;
+  vertical-align: middle;
+  height: 100%;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+}
+.model{
+  z-index: -2;
+}
+
+.hat{
+  visibility: hidden;
+  z-index: 10;
+}
+
+.hair{
+  visibility: hidden;
+  z-index: 0;
+}
+
+.shirt{
+	visibility:hidden;
+  z-index: 2;
+}
+
+.pant{
+	visibility:hidden;
+  z-index: 1;
+	}
+
+.shoe{
+  visibility: hidden;
+  z-index: 2;
+}
+
+#hat_button, #hair_button, #shirt_button, #pant_button, #shoe_button{
+  height: 100px;
+  width: 100px;
+  margin-top: 20%;
+  background-image: url('img/next_btn.png');
+  background-color: inherit;
+  outline-color: inherit;
+  outline: none;
+}
+
+#footer_btn {
+  font: helvetica;
+  font-size: 15px;
+  background-color: inherit;
+  color: white;
+  text-align: right;
+  margin-left: 60%;
+  margin-bottom: 5%;
+}
